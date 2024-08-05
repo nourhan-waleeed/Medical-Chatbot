@@ -44,3 +44,6 @@ When a user asks a question, we search past question/answer pairs for similar on
 
  If similar questions exist, we use a cheaper, smaller model to adjust the response for this I used flan-t5-small.
 
+ 
+ex: here when the question was first asked it was passed to the expensive model but in the second query a similar question was asked so the cheap model modified the answer so it took less time to adjust than to generate
+![image](https://github.com/user-attachments/assets/fab1dfed-267b-4b6e-8904-f3d511037f8a)
